@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n;
-    printf("Òª¼¸¸öÑ§Éú£¿");
+    printf("è¦å‡ ä¸ªå­¦ç”Ÿï¼Ÿ");
     scanf("%d",&n);
     typedef struct student
     {
@@ -10,9 +10,9 @@ int main(){
     }S;
     S stuArr[n];
     for(int i=0;i<n;i++){
-    printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄÃû×ÖºÍ·ÖÊı:",i+1);
+    printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„åå­—å’Œåˆ†æ•°:",i+1);
     scanf("%s %lf",stuArr[i].name,&stuArr[i].score);
-    printf("Ãû×Ö£º%s ·ÖÊı£º%lf\n",stuArr[i].name,stuArr[i].score);
+    printf("åå­—ï¼š%s åˆ†æ•°ï¼š%lf\n",stuArr[i].name,stuArr[i].score);
     }
     return 0;
 }
