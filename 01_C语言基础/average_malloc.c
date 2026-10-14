@@ -11,7 +11,7 @@ if (arr==NULL){
 }
 double sum=0;
 for(int i=0;i<n;i++){
-    printf("arr[%d]: %lf ",i,arr[i]);
+    printf("arr[%d]: ",i);
     scanf("%lf",&arr[i]);
     sum=sum+arr[i];
 }
